@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap');
+
+/* Global Styles */
+body {
+  color: #434455; 
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.02em;
+}
+
+/* Heading Styles */
+h1, h2, h3 {
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+h1 {
+  font-size: 56px;
+}
+
+h2 {
+  font-size: 36px;
+  text-transform: capitalize;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* Link Styles */
+a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.3;
+  letter-spacing: 0.03em;
+  text-decoration-line: underline;
+  color: #4D5AE5;
+}
+a:hover{
+  color: #404BBF;
+}
+
+/* Button Styles */
+button {
+  padding: 19px 32px;
+  border-radius: 4px;
+  background-color: #4D5AE5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
+  font-weight: 500;
+  letter-spacing: 0.64px;
+  color: #fff;
+  font-size: 16px;  
+}
+
+button:hover {
+  background-color: #404BBF;
+}
+
+/* Container Styles */
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Header Styles */
+.header {
+  padding: 8px 0;
+  border-bottom: 1px solid #E7E9FC;
+}
+
+.header > .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo Styles */
+.logo {
+  margin-right: 76px;
+}
+
+.logo a {
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  color: #4D5AE5;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+}
+
+.logo a span {
+  color: #434455;
+}
+
+/* Main Menu Styles */
+.main-menu {
+  flex: 1;
+}
+
+.main-menu ul {
+  display: flex;
+  gap: 40px;
+  padding: 0;
+}
+
+.main-menu ul li {
+  list-style: none;
+}
+
+.main-menu ul li a {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.32px;
+  color: #434455;
+  text-decoration: none;
+}
+
+.main-menu ul li a:hover {
+color: #404BBF;
+}
+
+/* Contact Info Styles */
+.contact-info ul {
+  display: flex;
+  gap: 40px;
+}
+
+.contact-info ul li {
+  list-style: none;
+}
+
+.contact-info ul li a {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.32px;
+  color: #434455;
+  text-decoration: none;
+}
+
+.contact-info ul li a:hover {
+  color: #404BBF;
+  }
+
+/* Banner Section Styles */
+.banner-section {
+  background-color: #2E2F42;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.banner-section h1 {
+  color: #FFF;
+  text-align: center;
+  line-height: 1.0714;
+}
+
+/* Values Section Styles */
+.values-section {
+  padding: 80px 0;
+}
+
+.value-list {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+  padding: 0;
+}
+
+.value-list h3 {
+  margin-bottom: 8px;
+  color: #2E2F42;
+}
+.value-list p {
+  margin-top: 0;
+}
+
+/* Service Section Styles */
+.services-section {
+  text-align: center;
+  padding: 0 0 120px;
+}
+
+.services-section h2 {
+  color: #2E2F42;
+  margin-top: 7px;
+}
+
+.service-list {
+  display: flex;
+  gap: 24px;
+  padding: 0;
+  margin: 70px 0 0;
+}
+
+.service-list li {
+  list-style: none;
+  flex: 1;
+}
+
+.service-list li img {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+/* Team Section Styles */
+.team-section {
+  background-color: #F4F4FD;
+  text-align: center;
+  padding: 120px 0;
+}
+
+.team-section h2 {
+  color: #2E2F42;
+  margin: 0 0 70px;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.team-list li {
+  border-radius: 4px;
+  background-color: #FFF;
+  box-shadow: 0px 2px 6px rgba(46, 47, 66, 0.08);
+  flex: 1;
+}
+
+.team-list li img {
+  width: 100%;
+  height: auto;
+}
+
+.team-member {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  padding-bottom: 32px;
+  display: flex;
+}
+
+.member-details h3 {
+  margin: 0 0 8px;
+}
+
+.member-details p {
+  margin: 0;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #2E2F42;
+  padding: 100px 0;
+  color: #fff;
+}
+
+.footer .logo span {
+  color: #fff;
+}
+
+.footer .widget {
+  max-width: 264px;
+}
+
+/* Inner Pages */
+.inner-section{
+  padding: 90px;
+}
+
+/* Fliter Menu */
+.project-button{
+  display: flex;
+  gap: 24px;
+  width: 100%;
+  justify-content: center;
+  margin: 6px 0 42px;
+}
+
+.project-button button {
+  border-radius: 4px;
+  border: 1px solid  #E7E9FC;
+  background-color: #F4F4FD;
+  color: #4D5AE5;
+  box-shadow: none;
+}
+
+.project-button button:hover, 
+.project-button button.active {
+  background-color: #4D5AE5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
+}
+
+/* Portfolio Cards */
+.project-card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+  list-style: none;
+  padding: 0;
+  margin: 30px 0;
+}
+
+.project-card-item {
+  background-color: #FFF;
+  flex-basis: calc(33.333% - 16px);
+  border: 1px solid #E7E9FC;
+  box-sizing: border-box;
+}
+
+.project-card-item img {
+  width: 100%;
+  height: auto;
+}
+
+.project-card-detail {
+  padding: 32px 16px;
+}
+
+.project-card-detail h3 {
+  margin: 0 0 8px;
+  color: #2E2F42;
+}
+
+.project-card-detail p {
+  margin: 0;
+}
